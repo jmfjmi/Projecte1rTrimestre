@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.border{
+    border:1px solid black; 
+}
+
+.cont_ar{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.menu>p{
+   width: 11%;
+   text-align: center; 
+   font-family: 'Open Sans', sans-serif;
+
+}
+
+.introduccio{
+    margin-top: 10%;
+}
+
+.byin{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(160, 158, 158);
+}
+
+.autor>p{
+    margin-left: 2px;
+}
+
+.noticies{
+    width: 70%;
+    margin-left: 15%;
+}
