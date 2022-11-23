@@ -1,45 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
-.flex{
-    display: flex;
-    flex-direction: row;
+.border {
+    border: 1px solid black;
 }
 
-.border{
-    border:1px solid black; 
+.logo{
+    background-image: url("../assets/icons/Group\ 13.png");
+    background-repeat: no-repeat;
+    height: 29px;
 }
 
-.cont_ar{
+.actual{
+    background-color:#FF5480;
+    color:white;
+    border-radius: 7%;
+}
+
+.buscar{
+    background-image: url("../assets/icons/magnifying-glass.png");
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.cont_ar {
     width: 70%;
-    margin-left: 15%;
 }
 
-.menu{
+.menu {
     display: flex;
-    
-}
-
-.menu>p{
-   width: 11%;
-   text-align: center; 
-   font-family: 'Open Sans', sans-serif;
 
 }
 
-.introduccio{
-    margin-top: 10%;
+.menu>p {
+    width: 11%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
-.byin{
+.fondo{
+    background-color: rgb(250, 250, 250);
+}
+
+.byin {
     font-family: 'Open Sans', sans-serif;
     color: rgb(160, 158, 158);
 }
 
-.autor>p{
-    margin-left: 2px;
+.noticies {
+    width: 70%;
 }
 
-.noticies{
-    width: 70%;
-    margin-left: 15%;
-}
