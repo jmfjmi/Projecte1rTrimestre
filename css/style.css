@@ -43,12 +43,91 @@
     background-color: rgb(250, 250, 250);
 }
 
+a{
+    text-decoration: none;   
+   }
+
 .byin {
     font-family: 'Open Sans', sans-serif;
     color: rgb(160, 158, 158);
+}
+
+.text{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
 }
 
 .noticies {
     width: 70%;
 }
 
+a{
+ text-decoration: none;
+}
+
+a:hover{
+    pointer-events: hand;
+    text-decoration:underline black;
+}
+
+.noticia1{
+    width: 50%;
+    margin-top: 10%;
+}
+
+.autor{
+    margin-left: 12%;
+
+}
+
+.imatges{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    margin-left: 4%;
+
+}
+
+.imatge1{
+    background-image: url(../assets/imgs/azul.png);
+}
+
+.imatge2{
+    background-image: url(../assets/imgs/astronauta.png);
+}
+
+.imatge3{
+    background-image: url(../assets/imgs/papeles.png);
+}
+
+.imatge4{
+    background-image: url(../assets/imgs/carrera.png);
+}
+
+.imatge5{
+    background-image: url(../assets/imgs/expermiento.png);
+}
+
+.imatge6{
+    background-image: url(../assets/imgs/maquinas.png);
+}
+
+.imatge7{
+    background-image: url(../assets/imgs/arquitecto.png);
+}
+
+.imatge8{
+    background-image: url(../assets/imgs/cafe.png);
+}
+
+
+.titol{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.subtitol{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(160, 158, 158);
+    font-size: 16px;
+}
