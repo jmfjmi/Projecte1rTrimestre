@@ -1,42 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
-.border {
-    border: 1px solid black;
-}
-
-.logo{
-    background-image: url("../assets/icons/Group\ 13.png");
-    background-repeat: no-repeat;
-    height: 29px;
-}
-
 .actual{
     background-color:#FF5480;
     color:white;
     border-radius: 7%;
-}
-
-.buscar{
-    background-image: url("../assets/icons/magnifying-glass.png");
-    background-repeat: no-repeat;
-    height: 24px;
-    width: 24px;
-}
-
-.cont_ar {
-    width: 70%;
-}
-
-.menu {
-    display: flex;
-
-}
-
-.menu>p {
-    width: 11%;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-
 }
 
 .fondo{
@@ -68,11 +35,6 @@ a{
 a:hover{
     pointer-events: hand;
     text-decoration:underline black;
-}
-
-.noticia1{
-    width: 50%;
-    margin-top: 10%;
 }
 
 .autor{
@@ -120,10 +82,28 @@ a:hover{
     background-image: url(../assets/imgs/cafe.png);
 }
 
+.imatge9{
+    background-image: url(../assets/imgs/luna.png);
+}   
 
-.titol{
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(0, 0, 0);
+.imatge10{
+    background-image: url(../assets/imgs/zapatos.png);
+}
+
+.imatge11{
+    background-image: url(../assets/imgs/reloj.png);
+}   
+
+.imatge12{
+    background-image: url(../assets/imgs/campaña.png);
+}
+
+.imatge13{
+    background-image: url(../assets/imgs/jabalina.png);
+}  
+
+.imatge14{
+    background-image: url(../assets/imgs/cohete.png);
 }
 
 .subtitol{
