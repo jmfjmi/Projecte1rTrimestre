@@ -15,274 +15,374 @@
 </head>
 
 <!--Aqui cream el menu amb l'ajuda de boostrap principalment per no haver de fer responsive-->
+
 <body>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-xxl">
-              <a class="navbar-brand logo mx-1"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link">Popular</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link actual">New</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Reading List</a>
-                  <li class="nav-item">
-                    <a class="nav-link">Topics</a>
-                  </li>
-                    <li class="nav-item">
-                        <a class="nav-link" >Subscribe</a>
-                      </li>
-                  </li>
-                
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit buscar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                  </svg></button>
-                </form>
-              </div>
-            </div>
-          </nav>
+    <div class="container-xxl">
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-xxl">
+                    <a class="navbar-brand logo mx-1"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link">Popular</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link actual">New</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Reading List</a>
+                            <li class="nav-item">
+                                <a class="nav-link">Topics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Subscribe</a>
+                            </li>
+                            </li>
 
-        <!--Aqui la introducció abans de les noticies-->
-        <div class="introduccio mt-5 container-xxl">
-            <h1>New</h1>
-            <p>Our latest web design tips, tricks, insights, and resources, hot off<br> the presses.</p>
-        </div>
-    </div>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit buscar"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-    <!--En aquest punt començam amb les noticies-->
-    <div class="fondo">
-        <div class="noticies mx-auto d-flex flex-wrap">
-            <!--Columna 1-->
-            <div class="col-lg-6">
-                <div class="imatge1 imatges col-11 "></div>
-                <div class="autor d-flex flex-wrap">
-                    <p class="mx-1 byin">BY</p>
-                    <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
-                    <p class="mx-1 byin">IN</p>
-                    <p class="mx-1 name">DESIGN PROCESS</p>
+        <section id="title-page">
+            <!--Aqui la introducció abans de les noticies-->
+            <div class="introduccio mt-5 container-xxl">
+                <h1>New</h1>
+                <p>Our latest web design tips, tricks, insights, and resources, hot off<br> the presses.</p>
+            </div>
+        </section>
+
+        <section id="posts-list">
+            <!--En aquest punt començam amb les noticies-->
+            <div>
+                <div class="row">
+                    <!--Columna 1-->
+                    <div class="col-lg-6">
+                        <div class="imatge1 imatges col-11 "></div>
+                        <div class="autor d-flex flex-wrap">
+                            <p class="mx-1 byin">BY</p>
+                            <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
+                            <p class="mx-1 byin">IN</p>
+                            <p class="mx-1 name">DESIGN PROCESS</p>
+                        </div>
+                        <a href="post.html">
+                            <h4 class="mt-2 text">How to Reinstall WordPress: 5 Different
+                                Methods Depending On Your Needs</h4>
+                        </a>
+                        <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
+                            Here’s our guide to why you should be doing it — and how to get started.</p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="imatge2 imatges col-11"></div>
+                        <div class="autor d-flex flex-wrap">
+                            <p class="mx-1 byin">BY</p>
+                            <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
+                            <p class="mx-1 byin">IN</p>
+                            <p class="mx-1 name">DESIGN PROCESS</p>
+                        </div>
+                        <a href="post.html">
+                            <h4 class="mt-2 text">Web page layout 101: website anatomy every
+                                designer needs to learn</h4>
+                        </a>
+                        <p class="mt-3 me-3 subtext">User research is the reality check every project needs. Here’s our
+                            guide
+                            to why you should be
+                            doing it — and how to get started.</p>
+                    </div>
+                    <!--Columna 2-->
+                    <div class="col-lg-6">
+                        <div class="imatge3 imatges col-11 "></div>
+                        <div class="autor d-flex flex-wrap">
+                            <p class="mx-1 byin">BY</p>
+                            <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
+                            <p class="mx-1 byin">IN</p>
+                            <p class="mx-1 name">DESIGN PROCESS</p>
+                        </div>
+                        <a href="post.html">
+                            <h4 class="mt-2 text">Website Downtime: Applicable Tips on How to Prevent It</h4>
+                        </a>
+                        <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
+                            Here’s our guide to why you should be doing it — and how to get started.</p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="imatge4 imatges col-11"></div>
+                        <div class="autor d-flex flex-wrap">
+                            <p class="mx-1 byin">BY</p>
+                            <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
+                            <p class="mx-1 byin">IN</p>
+                            <p class="mx-1 name">DESIGN PROCESS</p>
+                        </div>
+                        <a href="post.html">
+                            <h4 class="mt-2 text">6 Ways to Leverage Facebook for Marketing Success</h4>
+                        </a>
+                        <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
+                            Here’s our guide to why you should be doing it — and how to get started.</p>
+                    </div>
+                    <!--Columna 3-->
+                    <div class="col-lg-6">
+                        <div class="imatge5 imatges col-11 "></div>
+                        <div class="autor d-flex flex-wrap">
+                            <p class="mx-1 byin">BY</p>
+                            <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
+                            <p class="mx-1 byin">IN</p>
+                            <p class="mx-1 name">DESIGN PROCESS</p>
+                        </div>
+                        <a href="post.html">
+                            <h4 class="mt-2 text">Updating WooCommerce: A Safe and In-Depth Guide</h4>
+                        </a>
+                        <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
+                            Here’s our guide to why you should be doing it — and how to get started.</p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="imatge6 imatges col-11"></div>
+                        <div class="autor d-flex flex-wrap">
+                            <p class="mx-1 byin">BY</p>
+                            <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
+                            <p class="mx-1 byin">IN</p>
+                            <p class="mx-1 name">DESIGN PROCESS</p>
+                        </div>
+                        <a href="post.html">
+                            <h4 class="mt-2 text">WP-CLI v2 - Managing WordPress From the Terminal</h4>
+                        </a>
+                        <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
+                            Here’s our guide to why you should be doing it — and how to get started.</p>
+                    </div>
+                    <!--Columna 4-->
+                    <div class="col-lg-6">
+                        <div class="imatge7 imatges col-11 "></div>
+                        <div class="autor d-flex flex-wrap">
+                            <p class="mx-1 byin">BY</p>
+                            <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
+                            <p class="mx-1 byin">IN</p>
+                            <p class="mx-1 name">DESIGN PROCESS</p>
+                        </div>
+                        <a href="post.html">
+                            <h4 class="mt-2 text">Social Media Image Sizes and Quick Tips for WordPress Users</h4>
+                        </a>
+                        <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
+                            Here’s our guide to why you should be doing it — and how to get started.</p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="imatge8 imatges col-11"></div>
+                        <div class="autor d-flex flex-wrap">
+                            <p class="mx-1 byin">BY</p>
+                            <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
+                            <p class="mx-1 byin">IN</p>
+                            <p class="mx-1 name">DESIGN PROCESS</p>
+                        </div>
+                        <a href="post.html">
+                            <h4 class="mt-2 text">How to Create Outstanding Long-Form Articles in WordPress</h4>
+                        </a>
+                        <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
+                            Here’s our guide to why you should be doing it — and how to get started.</p>
+                    </div>
+
+                    <!--Columna 5-->
+                    <div class="col-lg-6">
+                        <div class="imatge9 imatges col-11 "></div>
+                        <div class="autor d-flex flex-wrap">
+                            <p class="mx-1 byin">BY</p>
+                            <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
+                            <p class="mx-1 byin">IN</p>
+                            <p class="mx-1 name">DESIGN PROCESS</p>
+                        </div>
+                        <a href="post.html">
+                            <h4 class="mt-2 text">How to Use Fiverr to Reduce Business Busywork</h4>
+                        </a>
+                        <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
+                            Here’s our guide to why you should be doing it — and how to get started.</p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="imatge10 imatges col-11"></div>
+                        <div class="autor d-flex flex-wrap">
+                            <p class="mx-1 byin">BY</p>
+                            <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
+                            <p class="mx-1 byin">IN</p>
+                            <p class="mx-1 name">DESIGN PROCESS</p>
+                        </div>
+                        <a href="post.html">
+                            <h4 class="mt-2 text">Email Marketing Best Practices for Sending Better Emails</h4>
+                        </a>
+                        <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
+                            Here’s our guide to why you should be doing it — and how to get started.</p>
+                    </div>
+
+                    <!--Columna 6-->
+                    <div class="col-lg-6">
+                        <div class="imatge11 imatges col-11 "></div>
+                        <div class="autor d-flex flex-wrap">
+                            <p class="mx-1 byin">BY</p>
+                            <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
+                            <p class="mx-1 byin">IN</p>
+                            <p class="mx-1 name">DESIGN PROCESS</p>
+                        </div>
+                        <a href="post.html">
+                            <h4 class="mt-2 text">Google Site Verification: 7 Ways to Verify With Search Console</h4>
+                        </a>
+                        <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
+                            Here’s our guide to why you should be doing it — and how to get started.</p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="imatge12 imatges col-11"></div>
+                        <div class="autor d-flex flex-wrap">
+                            <p class="mx-1 byin">BY</p>
+                            <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
+                            <p class="mx-1 byin">IN</p>
+                            <p class="mx-1 name">DESIGN PROCESS</p>
+                        </div>
+                        <a href="post.html">
+                            <h4 class="mt-2 text">Twitter Marketing Strategies to Beef up Your Social Game</h4>
+                        </a>
+                        <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
+                            Here’s our guide to why you should be doing it — and how to get started.</p>
+                    </div>
+
+                    <!--Columna 7-->
+                    <div class="col-lg-6">
+                        <div class="imatge13 imatges col-11 "></div>
+                        <div class="autor d-flex flex-wrap">
+                            <p class="mx-1 byin">BY</p>
+                            <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
+                            <p class="mx-1 byin">IN</p>
+                            <p class="mx-1 name">DESIGN PROCESS</p>
+                        </div>
+                        <a href="post.html">
+                            <h4 class="mt-2 text">The Ultimate Step-by-Step Guide on Website Usability Testing</h4>
+                        </a>
+                        <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
+                            Here’s our guide to why you should be doing it — and how to get started.</p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="imatge14 imatges col-11"></div>
+                        <div class="autor d-flex flex-wrap">
+                            <p class="mx-1 byin">BY</p>
+                            <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
+                            <p class="mx-1 byin">IN</p>
+                            <p class="mx-1 name">DESIGN PROCESS</p>
+                        </div>
+                        <a href="post.html">
+                            <h4 class="mt-2 text">8 Ways To Leverage LinkedIn for Marketing Success</h4>
+                        </a>
+                        <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
+                            Here’s our guide to why you should be doing it — and how to get started.</p>
+                    </div>
                 </div>
-                <a href="post.html">
-                    <h4 class="mt-2 text">How to Reinstall WordPress: 5 Different
-                        Methods Depending On Your Needs</h4>
-                </a>
-                <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
-                    Here’s our guide to why you should be doing it — and how to get started.</p>
+                <div class="row mb-5">
+                    <div class="col-sm-12 text-center">
+                        <button class="btn btn-outline-success mt-5" type="submit buscar">Load
+                            more</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--En aquest punt començarem amb el peu de pagina-->
+        <section id="all-topics" class="">
+            <div class="row">
+                <div class="col-sm-12 ">
+                    <h3>All topics</h3>
+                </div>
             </div>
 
-            <div class="col-lg-6">
-                <div class="imatge2 imatges col-11"></div>
-                <div class="autor d-flex flex-wrap">
-                    <p class="mx-1 byin">BY</p>
-                    <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
-                    <p class="mx-1 byin">IN</p>
-                    <p class="mx-1 name">DESIGN PROCESS</p>
+            <div class="row">
+                <div class="col-sm-3 pt-2 pb-2">
+                    <div class="topic">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb-fill" viewBox="0 0 16 16">
+                            <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                        Inspiration
+                    </div>
                 </div>
-                <a href="post.html">
-                    <h4 class="mt-2 text">Web page layout 101: website anatomy every
-                        designer needs to learn</h4>
-                </a>
-                <p class="mt-3 me-3 subtext">User research is the reality check every project needs. Here’s our guide
-                    to why you should be
-                    doing it — and how to get started.</p>
-            </div>
-            <!--Columna 2-->
-            <div class="col-lg-6">
-                <div class="imatge3 imatges col-11 "></div>
-                <div class="autor d-flex flex-wrap">
-                    <p class="mx-1 byin">BY</p>
-                    <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
-                    <p class="mx-1 byin">IN</p>
-                    <p class="mx-1 name">DESIGN PROCESS</p>
+                <div class="col-sm-3 pt-2 pb-2">
+                    <div class="topic">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                          </svg>
+                        Resource
+                    </div>
                 </div>
-                <a href="post.html">
-                    <h4 class="mt-2 text">Website Downtime: Applicable Tips on How to Prevent It</h4>
-                </a>
-                <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
-                    Here’s our guide to why you should be doing it — and how to get started.</p>
+                <div class="col-sm-3 pt-2 pb-2">
+                    <div class="topic">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-megaphone-fill" viewBox="0 0 16 16">
+                            <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 0 1 .496.008 64 64 0 0 1 1.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a65.81 65.81 0 0 1 1.692.064c.327.017.65.037.966.06z"/>
+                          </svg>
+                        Announcements
+                    </div>
+                </div>
+                <div class="col-sm-3 pt-2 pb-2">
+                    <div class="topic">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rocket-takeoff-fill" viewBox="0 0 16 16">
+                            <path d="M12.17 9.53c2.307-2.592 3.278-4.684 3.641-6.218.21-.887.214-1.58.16-2.065a3.578 3.578 0 0 0-.108-.563 2.22 2.22 0 0 0-.078-.23V.453c-.073-.164-.168-.234-.352-.295a2.35 2.35 0 0 0-.16-.045 3.797 3.797 0 0 0-.57-.093c-.49-.044-1.19-.03-2.08.188-1.536.374-3.618 1.343-6.161 3.604l-2.4.238h-.006a2.552 2.552 0 0 0-1.524.734L.15 7.17a.512.512 0 0 0 .433.868l1.896-.271c.28-.04.592.013.955.132.232.076.437.16.655.248l.203.083c.196.816.66 1.58 1.275 2.195.613.614 1.376 1.08 2.191 1.277l.082.202c.089.218.173.424.249.657.118.363.172.676.132.956l-.271 1.9a.512.512 0 0 0 .867.433l2.382-2.386c.41-.41.668-.949.732-1.526l.24-2.408Zm.11-3.699c-.797.8-1.93.961-2.528.362-.598-.6-.436-1.733.361-2.532.798-.799 1.93-.96 2.528-.361.599.599.437 1.732-.36 2.531Z"/>
+                            <path d="M5.205 10.787a7.632 7.632 0 0 0 1.804 1.352c-1.118 1.007-4.929 2.028-5.054 1.903-.126-.127.737-4.189 1.839-5.18.346.69.837 1.35 1.411 1.925Z"/>
+                          </svg>
+                        Entrepreneurship
+                    </div>
+                </div>
+                <div class="col-sm-3 pt-2 pb-2">
+                    <div class="topic">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-fill-check" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0zm2.146 5.146a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647z"/>
+                          </svg>
+                        Tutorials
+                    </div>
+                </div>
+                <div class="col-sm-3 pt-2 pb-2">
+                    <div class="topic">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                        </svg>
+                        Freelancing
+                    </div>
+                </div>
+                <div class="col-sm-3 pt-2 pb-2">
+                    <div class="topic">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-scissors" viewBox="0 0 16 16">
+                            <path d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61 3.5 3.5zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0zm7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"/>
+                          </svg>
+                        Design process
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="topic">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-subtract" viewBox="0 0 16 16">
+                            <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+                          </svg>
+                        Web design
+                    </div>
+                </div>
             </div>
+        </section>
+        <footer>
+            <img src="../Projecte1rTrimestre/assets/icons/gris.png" alt="gris">
+            <div class="">
+                <div></div>
+            </div>
+            <div class="byin">All Rights Reserved 2018 3layers</div>
 
-            <div class="col-lg-6">
-                <div class="imatge4 imatges col-11"></div>
-                <div class="autor d-flex flex-wrap">
-                    <p class="mx-1 byin">BY</p>
-                    <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
-                    <p class="mx-1 byin">IN</p>
-                    <p class="mx-1 name">DESIGN PROCESS</p>
-                </div>
-                <a href="post.html">
-                    <h4 class="mt-2 text">6 Ways to Leverage Facebook for Marketing Success</h4>
-                </a>
-                <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
-                    Here’s our guide to why you should be doing it — and how to get started.</p>
-            </div>
-            <!--Columna 3-->
-            <div class="col-lg-6">
-                <div class="imatge5 imatges col-11 "></div>
-                <div class="autor d-flex flex-wrap">
-                    <p class="mx-1 byin">BY</p>
-                    <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
-                    <p class="mx-1 byin">IN</p>
-                    <p class="mx-1 name">DESIGN PROCESS</p>
-                </div>
-                <a href="post.html">
-                    <h4 class="mt-2 text">Updating WooCommerce: A Safe and In-Depth Guide</h4>
-                </a>
-                <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
-                    Here’s our guide to why you should be doing it — and how to get started.</p>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="imatge6 imatges col-11"></div>
-                <div class="autor d-flex flex-wrap">
-                    <p class="mx-1 byin">BY</p>
-                    <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
-                    <p class="mx-1 byin">IN</p>
-                    <p class="mx-1 name">DESIGN PROCESS</p>
-                </div>
-                <a href="post.html">
-                    <h4 class="mt-2 text">WP-CLI v2 - Managing WordPress From the Terminal</h4>
-                </a>
-                <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
-                    Here’s our guide to why you should be doing it — and how to get started.</p>
-            </div>
-            <!--Columna 4-->
-            <div class="col-lg-6">
-                <div class="imatge7 imatges col-11 "></div>
-                <div class="autor d-flex flex-wrap">
-                    <p class="mx-1 byin">BY</p>
-                    <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
-                    <p class="mx-1 byin">IN</p>
-                    <p class="mx-1 name">DESIGN PROCESS</p>
-                </div>
-                <a href="post.html">
-                    <h4 class="mt-2 text">Social Media Image Sizes and Quick Tips for WordPress Users</h4>
-                </a>
-                <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
-                    Here’s our guide to why you should be doing it — and how to get started.</p>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="imatge8 imatges col-11"></div>
-                <div class="autor d-flex flex-wrap">
-                    <p class="mx-1 byin">BY</p>
-                    <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
-                    <p class="mx-1 byin">IN</p>
-                    <p class="mx-1 name">DESIGN PROCESS</p>
-                </div>
-                <a href="post.html">
-                    <h4 class="mt-2 text">How to Create Outstanding Long-Form Articles in WordPress</h4>
-                </a>
-                <p class="mt-3 me-3 subtext">User research is the reality check every project needs. 
-                    Here’s our guide to why you should be doing it — and how to get started.</p>
-            </div>
-
-             <!--Columna 5-->
-             <div class="col-lg-6">
-                <div class="imatge9 imatges col-11 "></div>
-                <div class="autor d-flex flex-wrap">
-                    <p class="mx-1 byin">BY</p>
-                    <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
-                    <p class="mx-1 byin">IN</p>
-                    <p class="mx-1 name">DESIGN PROCESS</p>
-                </div>
-                <a href="post.html">
-                    <h4 class="mt-2 text">How to Use Fiverr to Reduce Business Busywork</h4>
-                </a>
-                <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
-                    Here’s our guide to why you should be doing it — and how to get started.</p>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="imatge10 imatges col-11"></div>
-                <div class="autor d-flex flex-wrap">
-                    <p class="mx-1 byin">BY</p>
-                    <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
-                    <p class="mx-1 byin">IN</p>
-                    <p class="mx-1 name">DESIGN PROCESS</p>
-                </div>
-                <a href="post.html">
-                    <h4 class="mt-2 text">Email Marketing Best Practices for Sending Better Emails</h4>
-                </a>
-                <p class="mt-3 me-3 subtext">User research is the reality check every project needs. 
-                    Here’s our guide to why you should be doing it — and how to get started.</p>
-            </div>
-
-            <!--Columna 6-->
-            <div class="col-lg-6">
-                <div class="imatge11 imatges col-11 "></div>
-                <div class="autor d-flex flex-wrap">
-                    <p class="mx-1 byin">BY</p>
-                    <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
-                    <p class="mx-1 byin">IN</p>
-                    <p class="mx-1 name">DESIGN PROCESS</p>
-                </div>
-                <a href="post.html">
-                    <h4 class="mt-2 text">Google Site Verification: 7 Ways to Verify With Search Console</h4>
-                </a>
-                <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
-                    Here’s our guide to why you should be doing it — and how to get started.</p>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="imatge12 imatges col-11"></div>
-                <div class="autor d-flex flex-wrap">
-                    <p class="mx-1 byin">BY</p>
-                    <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
-                    <p class="mx-1 byin">IN</p>
-                    <p class="mx-1 name">DESIGN PROCESS</p>
-                </div>
-                <a href="post.html">
-                    <h4 class="mt-2 text">Twitter Marketing Strategies to Beef up Your Social Game</h4>
-                </a>
-                <p class="mt-3 me-3 subtext">User research is the reality check every project needs. 
-                    Here’s our guide to why you should be doing it — and how to get started.</p>
-            </div>
-
-              <!--Columna 7-->
-              <div class="col-lg-6">
-                <div class="imatge13 imatges col-11 "></div>
-                <div class="autor d-flex flex-wrap">
-                    <p class="mx-1 byin">BY</p>
-                    <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
-                    <p class="mx-1 byin">IN</p>
-                    <p class="mx-1 name">DESIGN PROCESS</p>
-                </div>
-                <a href="post.html">
-                    <h4 class="mt-2 text">The Ultimate Step-by-Step Guide on Website Usability Testing</h4>
-                </a>
-                <p class="mt-3 me-3 subtext">User research is the reality check every project needs.
-                    Here’s our guide to why you should be doing it — and how to get started.</p>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="imatge14 imatges col-11"></div>
-                <div class="autor d-flex flex-wrap">
-                    <p class="mx-1 byin">BY</p>
-                    <p class="mx-1 name">TOMAS LAURINAVICIUS</p>
-                    <p class="mx-1 byin">IN</p>
-                    <p class="mx-1 name">DESIGN PROCESS</p>
-                </div>
-                <a href="post.html">
-                    <h4 class="mt-2 text">8 Ways To Leverage LinkedIn for Marketing Success</h4>
-                </a>
-                <p class="mt-3 me-3 subtext">User research is the reality check every project needs. 
-                    Here’s our guide to why you should be doing it — and how to get started.</p>
-            </div>
-        </div>
-    </div>
-    <!--En aquest punt començarem amb el peu de pagina-->
-    <div>
-
-
+        </footer>
     </div>
 
 </body>
