@@ -15,10 +15,19 @@ a{
     color: rgb(160, 158, 158);
 }
 
+header{
+    background-color: white;
+}
+
 .text{
     font-family: 'Open Sans', sans-serif;
     color: rgb(0, 0, 0);
 }
+
+.text2{
+    font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A;
+}  
 
 
 a:hover{
@@ -26,17 +35,17 @@ a:hover{
     text-decoration:underline black;
 }
 
-.autor{
-    margin-left: 12%;
-
-}
-
 .imatges{
     background-repeat: no-repeat;
     background-size: cover;
-    height: 280px;
+    height: 330px;
     margin-left: 4%;
+}
 
+.imatges-post{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
 }
 
 .imatge1{
@@ -95,6 +104,14 @@ a:hover{
     background-image: url(../assets/imgs/cohete.png);
 }
 
+.imatge15{
+    background-image: url(../assets/imgs/heroe.png);
+}
+
+.imatge16{
+    background-image: url(../assets/imgs/mago.png);
+}
+
 .subtitol{
     font-family: 'Open Sans', sans-serif;
     color: rgb(160, 158, 158);
@@ -105,4 +122,9 @@ a:hover{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.0835598);
     border-radius: 8px;
     padding: 15px;
+}
+
+#post-page{
+    max-width: 972px;
+    margin: auto;
 }
