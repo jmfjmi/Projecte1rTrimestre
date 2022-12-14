@@ -29,6 +29,12 @@ header{
     color: #4A4A4A;
 }  
 
+.text3{
+    font-family: 'Open Sans';
+    font-style: italic;
+    color:#9283E0;
+    ;
+}
 
 a:hover{
     pointer-events: hand;
@@ -110,6 +116,14 @@ a:hover{
 
 .imatge16{
     background-image: url(../assets/imgs/mago.png);
+}
+
+.imatge17{
+    background-image: url(../assets/imgs/2pers.png);
+}
+
+.imatge18{
+    background-image: url(../assets/imgs/barca.png);
 }
 
 .subtitol{
