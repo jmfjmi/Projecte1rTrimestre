@@ -1,144 +1,144 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
-.actual{
-    background-color:#FF5480;
-    color:white;
+.actual {
+    background-color: #FF5480;
+    color: white;
     border-radius: 7%;
 }
 
-a{
-    text-decoration: none;   
-   }
+a {
+    text-decoration: none;
+}
 
 .byin {
     font-family: 'Open Sans', sans-serif;
     color: rgb(160, 158, 158);
 }
 
-header{
+header {
     background-color: white;
 }
 
-.text{
+.text {
     font-family: 'Open Sans', sans-serif;
     color: rgb(0, 0, 0);
 }
 
-.text2{
+.text2 {
     font-family: 'Open Sans', sans-serif;
     color: #4A4A4A;
-}  
+}
 
-.text3{
+.text3 {
     font-family: 'Open Sans';
     font-style: italic;
-    color:#9283E0;
+    color: #9283E0;
     ;
 }
 
-a:hover{
+a:hover {
     pointer-events: hand;
-    text-decoration:underline black;
+    text-decoration: underline black;
 }
 
-.imatges{
+.imatges {
     background-repeat: no-repeat;
     background-size: cover;
     height: 330px;
     margin-left: 4%;
 }
 
-.imatges-post{
+.imatges-post {
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
 }
 
-.imatge1{
+.imatge1 {
     background-image: url(../assets/imgs/azul.png);
 }
 
-.imatge2{
+.imatge2 {
     background-image: url(../assets/imgs/astronauta.png);
 }
 
-.imatge3{
+.imatge3 {
     background-image: url(../assets/imgs/papeles.png);
 }
 
-.imatge4{
+.imatge4 {
     background-image: url(../assets/imgs/carrera.png);
 }
 
-.imatge5{
+.imatge5 {
     background-image: url(../assets/imgs/expermiento.png);
 }
 
-.imatge6{
+.imatge6 {
     background-image: url(../assets/imgs/maquinas.png);
 }
 
-.imatge7{
+.imatge7 {
     background-image: url(../assets/imgs/arquitecto.png);
 }
 
-.imatge8{
+.imatge8 {
     background-image: url(../assets/imgs/cafe.png);
 }
 
-.imatge9{
+.imatge9 {
     background-image: url(../assets/imgs/luna.png);
-}   
+}
 
-.imatge10{
+.imatge10 {
     background-image: url(../assets/imgs/zapatos.png);
 }
 
-.imatge11{
+.imatge11 {
     background-image: url(../assets/imgs/reloj.png);
-}   
+}
 
-.imatge12{
+.imatge12 {
     background-image: url(../assets/imgs/campaña.png);
 }
 
-.imatge13{
+.imatge13 {
     background-image: url(../assets/imgs/jabalina.png);
-}  
+}
 
-.imatge14{
+.imatge14 {
     background-image: url(../assets/imgs/cohete.png);
 }
 
-.imatge15{
+.imatge15 {
     background-image: url(../assets/imgs/heroe.png);
 }
 
-.imatge16{
+.imatge16 {
     background-image: url(../assets/imgs/mago.png);
 }
 
-.imatge17{
+.imatge17 {
     background-image: url(../assets/imgs/2pers.png);
 }
 
-.imatge18{
+.imatge18 {
     background-image: url(../assets/imgs/barca.png);
 }
 
-.subtitol{
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(160, 158, 158);
-    font-size: 16px;
+.suscribe {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.0835598);
+    border-radius: 40px;
 }
 
-.topic{
+.topic {
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.0835598);
     border-radius: 8px;
     padding: 15px;
 }
 
-#post-page{
+#post-page {
     max-width: 972px;
     margin: auto;
 }
